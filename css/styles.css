@@ -131,12 +131,17 @@ img{
 }
 
 
+.fb-link{
+    text-decoration: underline;
+    font-style: italic;
+}
+
 .quality{
-    height: 120px;
-    width: 120px;
+    height: 60px;
+    width: 60px;
     position: absolute;
     top:10%;
-    right: 10%;
+    right: 5%;
     filter: none;
     animation-name: drop-down;
     animation-duration: 3s;
@@ -149,5 +154,10 @@ img{
 @media only screen and (min-width: 500px){
     .column{
         width: 50%;
+    }
+    .quality{
+        height: 120px;
+        width: 120px;
+        right: 10%;
     }
 }
